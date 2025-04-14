@@ -153,7 +153,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 25) { // Вертикальный стек для размещения элементов
-             Text("Демо Rive + Haptics")
+             Text("Rive + Haptics")
                  .font(.title)
 
             // Отображение Rive View с использованием ViewModel
