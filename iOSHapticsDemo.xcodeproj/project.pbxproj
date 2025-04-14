@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2CC320BF2DACFE1B0064AECA /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC320BE2DACFE1B0064AECA /* RiveRuntime */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2C362D8E2DA7A21100FE555A /* iOSHapticsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHapticsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC320BF2DACFE1B0064AECA /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = iOSHapticsDemo;
 			packageProductDependencies = (
+				2CC320BE2DACFE1B0064AECA /* RiveRuntime */,
 			);
 			productName = iOSHapticsDemo;
 			productReference = 2C362D8E2DA7A21100FE555A /* iOSHapticsDemo.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 2C362D852DA7A21100FE555A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2CC320BD2DACFE1B0064AECA /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2C362D8F2DA7A21100FE555A /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CC320BD2DACFE1B0064AECA /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CC320BE2DACFE1B0064AECA /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CC320BD2DACFE1B0064AECA /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C362D862DA7A21100FE555A /* Project object */;
 }
