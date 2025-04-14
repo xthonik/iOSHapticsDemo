@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "Pattern": [
+    {
+      "Event": {
+        "Time": 0.16505281690140844,
+        "EventType": "HapticTransient",
+        "EventParameters": [
+          {
+            "ParameterID": "HapticIntensity",
+            "ParameterValue": 1
+          },
+          {
+            "ParameterID": "HapticSharpness",
+            "ParameterValue": 0.5823529411764706
+          }
+        ]
+      }
+    },
+    {
+      "Event": {
+        "Time": 0.33186619718309857,
+        "EventType": "HapticTransient",
+        "EventParameters": [
+          {
+            "ParameterID": "HapticIntensity",
+            "ParameterValue": 0.5257143293108258
+          },
+          {
+            "ParameterID": "HapticSharpness",
+            "ParameterValue": 0.8705882352941177
+          }
+        ]
+      }
+    },
+    {
+      "Event": {
+        "Time": 0.49955985915492956,
+        "EventType": "HapticTransient",
+        "EventParameters": [
+          {
+            "ParameterID": "HapticIntensity",
+            "ParameterValue": 1
+          },
+          {
+            "ParameterID": "HapticSharpness",
+            "ParameterValue": 0.9882352941176471
+          }
+        ]
+      }
+    },
+    {
+      "Event": {
+        "Time": 0.8305457746478874,
+        "EventType": "HapticTransient",
+        "EventParameters": [
+          {
+            "ParameterID": "HapticIntensity",
+            "ParameterValue": 0.5019048055013021
+          },
+          {
+            "ParameterID": "HapticSharpness",
+            "ParameterValue": 0.6705882352941176
+          }
+        ]
+      }
+    },
+    {
+      "Event": {
+        "Time": 0.9947183098591549,
+        "EventType": "HapticTransient",
+        "EventParameters": [
+          {
+            "ParameterID": "HapticIntensity",
+            "ParameterValue": 0.9866666521344866
+          },
+          {
+            "ParameterID": "HapticSharpness",
+            "ParameterValue": 0.7647058823529411
+          }
+        ]
+      }
+    }
+  ]
+}
